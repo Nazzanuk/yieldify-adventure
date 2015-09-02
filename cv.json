@@ -1,0 +1,43 @@
+{
+  "name": "Nathan Nelson",
+  "github": "https://github.com/Nazzanuk",
+  "personal_website": "http://webnatives.uk",
+  "relavent_social_media": [
+    ""
+  ],
+  "skill_lists": {
+    "major": [
+      {
+        "name": "JavaScript",
+        "years_of_experience": 5
+      },
+      {
+        "name": "CSS",
+        "years_of_experience": 5
+      },
+      {
+        "name": "HTML",
+        "years_of_experience": 5
+      },
+      {
+        "name": "SCSS / SASS",
+        "years_of_experience": 3
+      },
+      {
+        "name": "Gulp / Grunt",
+        "years_of_experience": 1
+      },
+      {
+        "name": "AngularJS",
+        "years_of_experience": 2
+      }
+    ],
+    "minor": [
+      "<A less important skill>",
+      "<A second less important skill>"
+    ],
+    "learning": [
+      "<something you are learning>"
+    ]
+  }
+}
