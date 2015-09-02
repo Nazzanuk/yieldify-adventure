@@ -1,0 +1,43 @@
+.terminal {
+  background: rgba(0,0,0,0.2);
+  border-top: rgba(255,255,255,0.1) 1px solid;
+  border-bottom: rgba(0,0,0,0.1) 1px solid;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 30px;
+  overflow: hidden;
+  margin-top: 30px;
+
+  .terminal-content {
+    font-family: Consolas, "Lucida Console", Monaco, monospace;
+  }
+
+
+  .terminal-bottom {
+    padding: 30px;
+    margin: 0 -30px -30px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.2);
+
+    input {
+      background: none;
+      color: #ffffff;
+      border: none;
+      width: 100%;
+      outline: none;
+      color: #ffffff;
+      font-family: Consolas, "Lucida Console", Monaco, monospace;
+    }
+  }
+}
+
+.profile {
+  background: $blue;
+  border-top: rgba(255,255,255,0.1) 1px solid;
+  border-bottom: rgba(0,0,0,0.1) 1px solid;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 30px;
+  overflow: hidden;
+  margin-top: 30px;
+}

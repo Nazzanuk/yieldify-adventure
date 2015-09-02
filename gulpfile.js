@@ -45,15 +45,10 @@ gulp.task("gen-js", function(){
 gulp.task("gen-js-lib", function(){
     return gulp.src([
         'src/bower-components/jquery/dist/jquery.min.js',
-        //'src/bower-components/jquery-ui/jquery-ui.min.js',
-        //'src/bower-components/jqueryui-touch-punch/jquery.ui.touch-punch.js',
         'src/bower-components/angular/angular.min.js',
         'src/bower-components/velocity/velocity.min.js',
         'src/bower-components/velocity/velocity.ui.min.js',
         'src/bower-components/underscore/underscore-min.js',
-        'src/bower-components/moment/moment.js'
-        //'src/bower-components/rxjs/dist/rx.all.js',
-        //'src/bower-components/bootstrap/dist/js/bootstrap.js'
     ])
         .pipe(concat('lib.js'))
         .pipe(gulp.dest(paths.public));
@@ -67,7 +62,7 @@ gulp.task("copy-public", function(){
 gulp.task("gen-html", function(){
 
     var pages = {
-        index:['head', 'footer']
+        index:['head', 'terminal', 'footer']
     };
 
     for (var i in pages){

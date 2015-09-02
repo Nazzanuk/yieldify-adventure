@@ -1,3 +1,73 @@
 html {
   overflow-x: hidden; }
 
+body {
+  min-height: 100vh;
+  background-image: url("/public/img/8.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px; }
+
+input, textarea {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px; }
+
+h1, h2, h3, p {
+  margin: 0 0 30px;
+  font-weight: 100; }
+
+h1 {
+  font-size: 30px; }
+
+p {
+  margin: 0 0 15px;
+  font-weight: 400; }
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8); }
+
+:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8); }
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8); }
+
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8); }
+
+.terminal {
+  background: rgba(0, 0, 0, 0.2);
+  border-top: rgba(255, 255, 255, 0.1) 1px solid;
+  border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 30px;
+  overflow: hidden;
+  margin-top: 30px; }
+  .terminal .terminal-content {
+    font-family: Consolas, "Lucida Console", Monaco, monospace; }
+  .terminal .terminal-bottom {
+    padding: 30px;
+    margin: 0 -30px -30px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.2); }
+    .terminal .terminal-bottom input {
+      background: none;
+      color: #ffffff;
+      border: none;
+      width: 100%;
+      outline: none;
+      color: #ffffff;
+      font-family: Consolas, "Lucida Console", Monaco, monospace; }
+
+.profile {
+  background: #48a0e2;
+  border-top: rgba(255, 255, 255, 0.1) 1px solid;
+  border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 30px;
+  overflow: hidden;
+  margin-top: 30px; }
