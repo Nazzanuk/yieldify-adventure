@@ -1,26 +1,31 @@
-<div class="container">
-    <div class="col-sm-4">
-        <div class="row">
-            <div class="profile">
-                <h1>Yieldify Adventure</h1>
+<div ng-controller="TerminalCtrl">
 
-                <p>Points <span class="pull-right">28</span></p>
+    <div class="container">
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="profile">
+                    <h1>Yieldify Adventure</h1>
 
+                    <p>Points <span class="pull-right">28</span></p>
+
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="col-sm-8">
-        <div class="row">
-            <div class="terminal">
-                <h1>Terminal</h1>
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="terminal">
+                    <h1>Terminal</h1>
 
-                <p class="terminal-content">
-                    hello
-                </p>
+                    <div class="terminal-content">
+                        <p class="{{message.type}}" ng-repeat="message in getMessages() track by $index" ng-bind="message.message"></p>
+                    </div>
 
-                <div class="terminal-bottom">
-                    <input type="text" placeholder="Type a command"/>
+                    <div class="terminal-bottom">
+                        <input class="terminal-input" type="text" placeholder="Please enter a command" ng-model="command" ng-enter="execute()"/>
+                    </div>
+
+                    <div class="terminal-button" ng-click="execute()"><i class="fa fa-check"></i></div>
                 </div>
             </div>
         </div>
