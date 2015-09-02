@@ -1,0 +1,22 @@
+{
+  "name": "yieldify-adventure",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Nazzanuk/yieldify-adventure",
+  "authors": [
+    "Nathan N <nazzanuk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower-components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.5",
+    "bootstrap": "~3.3.5"
+  }
+}
