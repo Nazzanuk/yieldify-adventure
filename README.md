@@ -1,6 +1,6 @@
 # Yieldify Adventure
 
-If you just want to run th project HTML then download the zip and open the `release` directory.
+If you just want to run the project then download the zip and open `index.html` in the `release` directory.
 
 ### Prerequisites
 
