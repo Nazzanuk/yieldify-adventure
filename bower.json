@@ -17,6 +17,8 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "angular": "~1.4.5",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "velocity": "~1.2.2",
+    "underscore": "~1.8.3"
   }
 }

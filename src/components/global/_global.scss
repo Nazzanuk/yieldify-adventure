@@ -4,17 +4,21 @@ html {
 
 body {
   min-height: 100vh;
-  background-image: url("/public/img/8.jpg");
+  background-image: url("/public/img/13.jpg");
   background-position: center;
   background-size: cover;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+[ng-controller] {
+  display: inline;
 }
 
 input, textarea {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1, h2, h3, p {
@@ -23,7 +27,11 @@ h1, h2, h3, p {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 24px;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
 }
 
 p {

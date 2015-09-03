@@ -48,7 +48,7 @@ gulp.task("gen-js-lib", function(){
         'src/bower-components/angular/angular.min.js',
         'src/bower-components/velocity/velocity.min.js',
         'src/bower-components/velocity/velocity.ui.min.js',
-        'src/bower-components/underscore/underscore-min.js',
+        'src/bower-components/underscore/underscore-min.js'
     ])
         .pipe(concat('lib.js'))
         .pipe(gulp.dest(paths.public));

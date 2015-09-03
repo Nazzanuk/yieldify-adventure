@@ -2,20 +2,68 @@
     app.service('DataService', [function () {
         var that = this;
 
-        var status = "Home";
+        var status = {
+            points : 0,
+            location : "Unknown room",
+            position : "Sitting down",
+            facing : "North"
+        };
         var messages = [];
-        var commands = [];
+        var smartMessages = {};
+        var responses = [
+            "I don't quite understand this command.",
+            "Command not found.",
+            "Try something else.",
+            "I'm not Siri.",
+            "I'm just not smart enough to understand this yet."
+        ];
 
         var actions = [
             {
                 match: ["hello", "hello!", "hi", "hey"],
-                response: "Howdy."
+                response: ["Howdy."]
             },
             {
-                match: ["look at room"],
-                response: "This is a very nice room"
+                match: ["look at room", "where am i"],
+                response: [
+                    "You are in a plain all white room. 4 walls about 2 meters each, the floor is a grey marble with a single light illuminating the room. There is a white door with a handle in front of you.",
+                    "You see 4 white walls and a door directly in front of you"
+                ]
+            },
+            {
+                match: ["look at me", "who am i"],
+                response: [
+                    "You are a smart, intelligent being. You give off a strong glowing positive radiance. You love JavaScript more than your own parents.",
+                    "You are statistically likely to be a guy aged between 25 - 29 with around 4 years of dev experience. You are a JavaScript guru who prefers tabs to spaces and loves a dark themed IDE."
+                ]
+            },
+            {
+                partial: ["say"],
+                smartMessage: "say"
+            },
+            {
+                partial: ["stand up"],
+                smartMessage: "standUp"
+            },
+            {
+                partial: ["sit down"],
+                smartMessage: "sitDown"
             }
         ];
+
+        smartMessages.say = function (command) {
+            return "You say '" + command.replace('say ','') + "'... nobody responds.";
+        };
+
+        smartMessages.standUp = function (command) {
+            status.position = "Standing up";
+            return "You stand up.";
+        };
+
+        smartMessages.sitDown = function (command) {
+            status.position = "Sitting down";
+            return "You sit down.";
+        };
 
         var execute = function (command) {
             messages.push({
@@ -29,15 +77,30 @@
             });
         };
 
+        var getStatus = function () {
+            return status;
+        };
+
         var getResponse = function (command) {
-            var response = "I don't quite understand.";
+            var response = _.sample(responses);
 
             for (var i in actions) {
                 var action = actions[i];
 
                 for (var j in action.match) {
                     if (command.toLowerCase() == action.match[j].toLowerCase()) {
-                        response = action.response;
+                        response = _.sample(action.response);
+                    }
+                }
+
+                for (var j in action.partial) {
+                    if (command.toLowerCase().indexOf(action.partial[j].toLowerCase()) > -1) {
+                        if (action.response != undefined) {
+                            response = action.response;
+                        } else {
+                            response = smartMessages[action.smartMessage](command);
+                        }
+
                     }
                 }
 
@@ -61,5 +124,6 @@
 
         that.execute = execute;
         that.getMessages = getMessages;
+        that.getStatus = getStatus;
     }]);
 }());
