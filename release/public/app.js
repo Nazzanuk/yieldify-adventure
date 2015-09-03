@@ -32,6 +32,11 @@ app.directive('ngEnter', function () {
             "I'm just not smart enough to understand this yet."
         ];
 
+        /**
+         * each action matches certain phrases and will then print one of the random responses
+         * smartMessages run functions which return the message content
+         * @type {*[]}
+         */
         var actions = [
             {
                 match: ["hello", "hello!", "hi", "hey"],
@@ -65,6 +70,11 @@ app.directive('ngEnter', function () {
             }
         ];
 
+        /**
+         * The smartMessages do more than simply print text, they can modify the state if necessary
+         * @param command
+         * @returns {string}
+         */
         smartMessages.say = function (command) {
             return "You say '" + command.replace('say ','') + "'... nobody responds.";
         };
@@ -79,6 +89,10 @@ app.directive('ngEnter', function () {
             return "You sit down.";
         };
 
+        /**
+         * Accepts a command and prints both the input and the response to the screen
+         * @param command
+         */
         var execute = function (command) {
             messages.push({
                 type: "input",
@@ -95,6 +109,10 @@ app.directive('ngEnter', function () {
             return status;
         };
 
+        /**
+         * Tries to find a response for every command, otherwise returns one of the default messages
+         * @param command
+         */
         var getResponse = function (command) {
             var response = _.sample(responses);
 
@@ -127,14 +145,11 @@ app.directive('ngEnter', function () {
             return messages;
         };
 
-        var events = function () {
-        };
-
-        var init = function () {
-            events();
-        };
+        var init = function () {};
 
         init();
+
+        //Only expose specific functions
 
         that.execute = execute;
         that.getMessages = getMessages;
