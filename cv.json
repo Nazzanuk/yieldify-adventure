@@ -2,7 +2,7 @@
   "name": "Nathan Nelson",
   "github": "https://github.com/Nazzanuk",
   "personal_website": "http://webnatives.uk",
-  "relavent_social_media": [""],
+  "relavent_social_media": ["https://uk.linkedin.com/in/nathannelsonweb"],
   "skill_lists": {
     "major": [
       {
@@ -30,18 +30,42 @@
         "years_of_experience": 5
       },
       {
+        "name": "Node",
+        "years_of_experience": 2
+      },
+      {
+        "name": "Mongo",
+        "years_of_experience": 2
+      },
+      {
         "name": "Gulp / Grunt",
         "years_of_experience": 1
       },
       {
         "name": "AngularJS",
         "years_of_experience": 2
+      },
+      {
+        "name": "jQuery",
+        "years_of_experience": 5
+      },
+      {
+        "name": "Wordpress",
+        "years_of_experience": 5
+      },
+      {
+        "name": "PhoneGap",
+        "years_of_experience": 2
       }
     ],
     "minor": [
       "Docker",
+      "SQL",
       "AWS",
-      "AWS"
+      "PHP",
+      "import.io",
+      "TDD",
+      "Android"
     ],
     "learning": [
       "ReactJS"
