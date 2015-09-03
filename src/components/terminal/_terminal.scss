@@ -14,7 +14,9 @@
   z-index: 10;
 
   @media (max-width: 767px) {
-    min-height: 80vh;
+    margin-top: 15px;
+    min-height: 350px;
+    padding:15px;
   }
 
   .terminal-header {
@@ -22,6 +24,11 @@
     line-height: 30px;
     background: rgba(0, 0, 0, 0.1);
     margin: -30px -30px 30px;
+
+    @media (max-width: 767px) {
+      padding:15px;
+      margin: -15px -15px 15px;
+    }
   }
 
   .terminal-content {
@@ -36,6 +43,12 @@
     max-height: 518px;
 
     color: #96dbff;
+
+    @media (max-width: 767px) {
+      padding:0 15px;
+      max-height: 228px;
+      bottom: 60px;
+    }
 
     .input {
       margin-bottom: 5px;
@@ -68,6 +81,12 @@
     right: 90px;
     height: 90px;
 
+    @media (max-width: 767px) {
+      right: 60px;
+      padding:15px;
+      height: 60px;
+    }
+
     input {
       background: none;
       color: #ffffff;
@@ -94,6 +113,13 @@
     cursor: pointer;
     transition: .3s;
 
+    @media (max-width: 767px) {
+      line-height: 60px;
+      height: 60px;
+      width: 60px;
+      font-size: 24px;
+    }
+
     &:hover {
       background: lighten($blue, 5%);
     }
@@ -114,6 +140,8 @@
   min-height: 700px;
 
   @media (max-width: 767px) {
+    margin-top: 15px;
+    padding: 15px;
     min-height: initial;
     min-height: auto;
   }
@@ -126,6 +154,11 @@
     margin: -30px -31px 30px;
     border-top: rgba(255, 255, 255, 0.3) 1px solid;
     border-left: rgba(255, 255, 255, 0.3) 1px solid;
+
+    @media (max-width: 767px) {
+      padding:15px;
+      margin: -15px -15px 15px;
+    }
   }
 
   p {
