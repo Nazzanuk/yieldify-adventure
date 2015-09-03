@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e6e83ee-3f38-4a00-812d-d928bfd0c847" name="Default" comment="removed redundant backgrounds">
+    <list default="true" id="8e6e83ee-3f38-4a00-812d-d928bfd0c847" name="Default" comment="css">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/global/_global.scss" afterPath="$PROJECT_DIR$/src/components/global/_global.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/terminal/_terminal.scss" afterPath="$PROJECT_DIR$/src/components/terminal/_terminal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/public/app.css" afterPath="$PROJECT_DIR$/release/public/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/terminal/terminal.html" afterPath="$PROJECT_DIR$/src/components/terminal/terminal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yieldify-adventure.iws" />
@@ -42,11 +45,21 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/gulpfile.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1560">
-                      <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+                    <state vertical-scroll-proportion="0.4421365" vertical-offset="556" max-vertical-offset="1530">
+                      <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/bower.json">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="-8.125" vertical-offset="90" max-vertical-offset="435">
+                      <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
                       <folding />
                     </state>
                   </provider>
@@ -62,10 +75,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="data-service.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="data-service.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/data/data-service.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.2670623" vertical-offset="0" max-vertical-offset="2025">
+                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
                       <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
                       <folding />
                     </state>
@@ -99,8 +112,8 @@
               <file leaf-file-name="terminal.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/terminal/terminal.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.17207792" vertical-offset="7" max-vertical-offset="615">
-                      <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+                    <state vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="600">
+                      <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
                       <folding />
                     </state>
                   </provider>
@@ -145,8 +158,8 @@
           <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/global/_global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="870">
-                  <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
+                <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="870">
+                  <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -155,8 +168,8 @@
           <file leaf-file-name="_terminal.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/terminal/_terminal.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4574639" vertical-offset="1305" max-vertical-offset="2625">
-                  <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+                <state vertical-scroll-proportion="3.7560194" vertical-offset="0" max-vertical-offset="2655">
+                  <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -190,13 +203,14 @@
         <option value="$PROJECT_DIR$/src/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/src/components/header/header.html" />
         <option value="$PROJECT_DIR$/src/components/colours/_colours.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/components/terminal/terminal-ctrl.js" />
         <option value="$PROJECT_DIR$/src/components/data/data-service.js" />
         <option value="$PROJECT_DIR$/src/app.scss" />
-        <option value="$PROJECT_DIR$/src/components/terminal/terminal.html" />
         <option value="$PROJECT_DIR$/src/components/global/_global.scss" />
         <option value="$PROJECT_DIR$/src/components/terminal/_terminal.scss" />
+        <option value="$PROJECT_DIR$/src/components/terminal/terminal.html" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -676,14 +690,20 @@
       <option name="project" value="LOCAL" />
       <updated>1441241138258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made page responsive to an extent">
+      <created>1441241641550</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1441241641550</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26086956" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -749,7 +769,8 @@
     <MESSAGE value="added javascript controller and service" />
     <MESSAGE value="multiple look and feel changes" />
     <MESSAGE value="removed redundant backgrounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed redundant backgrounds" />
+    <MESSAGE value="made page responsive to an extent" />
+    <option name="LAST_COMMIT_MESSAGE" value="made page responsive to an extent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -804,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1560">
-          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
@@ -830,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/data/data-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2670623" vertical-offset="0" max-vertical-offset="2025">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
@@ -844,26 +857,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/terminal/terminal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17207792" vertical-offset="7" max-vertical-offset="615">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/global/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="870">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
+        <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="870">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/terminal/_terminal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4574639" vertical-offset="1305" max-vertical-offset="2625">
-          <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+        <state vertical-scroll-proportion="3.7560194" vertical-offset="0" max-vertical-offset="2655">
+          <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/terminal/terminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="600">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="90" max-vertical-offset="435">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4421365" vertical-offset="556" max-vertical-offset="1530">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
           <folding />
         </state>
       </provider>

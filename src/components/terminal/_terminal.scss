@@ -9,7 +9,7 @@
   padding: 30px;
   overflow: hidden;
   margin-top: 50px;
-  min-height: 700px;
+  min-height: 600px;
   position: relative;
   z-index: 10;
 
@@ -40,7 +40,7 @@
     padding: 0 30px;
     //    top: 90px;
     overflow: auto;
-    max-height: 518px;
+    max-height: 418px;
 
     color: #96dbff;
 
@@ -137,7 +137,7 @@
   border-radius: 8px;
   padding: 30px;
   margin-top: 50px;
-  min-height: 700px;
+  min-height: 600px;
 
   @media (max-width: 767px) {
     margin-top: 15px;
@@ -154,6 +154,7 @@
     margin: -30px -31px 30px;
     border-top: rgba(255, 255, 255, 0.3) 1px solid;
     border-left: rgba(255, 255, 255, 0.3) 1px solid;
+    border-right: rgba(0, 0, 0, 0.1) 1px solid;
 
     @media (max-width: 767px) {
       padding:15px;
@@ -164,7 +165,8 @@
   p {
     span {
       font-weight: bold;
-      //      color: #fff57d;
+            color: #96dbff;
+//      font-size: 18px;
     }
   }
 }
