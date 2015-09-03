@@ -1,6 +1,8 @@
 # Yieldify Adventure
 
-If you just want to run the project then download the zip and open `index.html` in the `release` directory.
+Project uploaded here: http://webnatives.uk/sandbox/yieldify-adventure
+
+You can also download the zip and open `index.html` in the `release` directory.
 
 ### Prerequisites
 
